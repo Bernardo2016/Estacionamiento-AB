@@ -1,0 +1,12 @@
+﻿version: 0.2
+phases:
+  build:
+    commands:
+      - echo "Construyendo la imagen Docker..."
+      - docker build -t mi-procesador .
+      - echo "Simulando contenedor Docker..."
+      - docker run -v $(pwd):/app mi-procesador "v2.0-Pipeline"
+artifacts:
+  files:
+    - aprobados.csv
+    - backup.log
