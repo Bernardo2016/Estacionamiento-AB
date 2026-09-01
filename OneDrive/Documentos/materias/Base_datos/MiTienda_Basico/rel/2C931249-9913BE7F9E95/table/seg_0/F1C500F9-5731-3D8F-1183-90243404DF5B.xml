@@ -1,0 +1,112 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="F1C500F9-5731-3D8F-1183-90243404DF5B" name="DETALLE_COMPRA">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>5F374AEF-FDDA-89D6-8EB3-DF39089C2201</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_detalle" id="3B5EEDF0-35CD-D1B9-D0D5-B62939F56BCD">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>BFA308E5-66AA-C485-B977-EB39CB2F2BD2</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="cantidad" id="6DF8E833-DFC1-2B88-B955-289282F482A4">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>37B27473-18BB-7855-4D3E-F68DBBF49910</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario_momento" id="9617A2A8-1B4E-3701-0AD5-487308DEDAAD">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>D1B52F19-855D-562C-A812-7CCA0E409B87</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>626363CC-17CA-57FE-2423-AE44B944B66D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="COMPRAS_id_compra" id="A0125AB6-86D1-EB3F-E981-693A3341C80E">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>767F098B-D634-65DF-3879-D1EFD9E5E4DE</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="8488FB9E-D435-50B6-7833-C8956F6CF310" referredColumn="2EDB3994-B5F8-993A-D794-E7D2ECD8539B"/>
+</associations>
+</Column>
+<Column name="PRODUCTOS_id_producto" id="B03D2640-7CA8-E6D6-750D-AEAFA0B7804A">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>F5EFC0A9-94C1-893D-818D-7A96E4D23913</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="51183F95-0934-CB18-9B21-A69248BA6E46" referredColumn="B102B359-67EC-876A-4880-697B19430D7D"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="D868C8A9-1A72-9532-EAB3-E14F9C6EB64F" name="DETALLE_COMPRA_PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>FAC671FC-A043-8F36-498C-FBB42A0B3782</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="3B5EEDF0-35CD-D1B9-D0D5-B62939F56BCD"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="9F342378-8411-FBE1-7DF8-126B99A806D7" name="DETALLE_COMPRA_COMPRAS_FK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>7CD2730E-4EDA-5296-CB2D-0F80556F62E5</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="A0125AB6-86D1-EB3F-E981-693A3341C80E"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="D64FF246-8246-C466-D164-C556AF2D65B9" name="DETALLE_COMPRA_PRODUCTOS_FK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>F1ED733B-9DC5-513A-A0E4-0F6F25CBD099</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B03D2640-7CA8-E6D6-750D-AEAFA0B7804A"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

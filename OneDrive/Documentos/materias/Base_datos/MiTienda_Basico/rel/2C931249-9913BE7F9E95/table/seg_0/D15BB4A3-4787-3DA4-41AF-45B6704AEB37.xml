@@ -1,0 +1,87 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="D15BB4A3-4787-3DA4-41AF-45B6704AEB37" name="COMPRAS">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>9521EC5D-FB1F-F401-A4FE-3BC18B6194B4</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_compra" id="2EDB3994-B5F8-993A-D794-E7D2ECD8539B">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>E4976D3A-BA72-82AA-6C97-8071C5258EE4</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha" id="D840098E-6073-A129-1A78-2ABF038142D4">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>3AE1310E-9629-E1C5-DB7E-16566C9CD58B</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="total" id="55149291-8625-0F2E-8688-811578C02EF0">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>5ED6E500-CB03-6F65-F1B6-CFE5A06B36AB</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>626363CC-17CA-57FE-2423-AE44B944B66D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="CLIENTES_id_cliente" id="10C3DBB5-510D-290C-F3D7-F9EDB77F0C73">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>191A68DF-BA3F-F9A1-D707-8ECAA3372D29</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<previousColumn>false</previousColumn>
+<autoIncrementCycle>false</autoIncrementCycle>
+<associations>
+<colAssociation fkAssociation="DCF4111A-0BDB-0326-1FAB-D9ACB38D0C22" referredColumn="1D44269B-0E54-F307-1B90-B6743E94C959"/>
+</associations>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="1AD487F9-00D9-6B3C-AEA5-215D86663D0F" name="COMPRAS_PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>4A382DC6-AD68-1351-C387-EC39F9B96713</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="2EDB3994-B5F8-993A-D794-E7D2ECD8539B"/>
+</indexColumnUsage>
+</ind_PK_UK>
+<ind_PK_UK id="BD32D3FA-DED4-2C69-863A-197756088536" name="COMPRAS_CLIENTES_FK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>22B640FC-3BD1-7FA3-1E91-D2963E130B0B</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<indexState>Foreign Key</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="10C3DBB5-510D-290C-F3D7-F9EDB77F0C73"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

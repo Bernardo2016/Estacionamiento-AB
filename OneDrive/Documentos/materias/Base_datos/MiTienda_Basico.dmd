@@ -1,0 +1,8 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="MiTienda_Basico" id="061B7BBF-3DDB-2026-0CB8-9EE36151B3D0" version="3.5">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:38:18 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>061B7BBF-3DDB-2026-0CB8-9EE36151B3D0</designId>
+</OSDM_Design>

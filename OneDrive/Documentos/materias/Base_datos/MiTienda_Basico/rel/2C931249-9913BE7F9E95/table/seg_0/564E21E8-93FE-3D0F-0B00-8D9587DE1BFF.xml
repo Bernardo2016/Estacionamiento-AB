@@ -1,0 +1,84 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="564E21E8-93FE-3D0F-0B00-8D9587DE1BFF" name="PRODUCTOS">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>F7889331-DF97-8AA6-6E5F-AEB673B3968F</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_producto" id="B102B359-67EC-876A-4880-697B19430D7D">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>A4200F8B-0E64-B553-4EC8-20378632DA54</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="C7049D91-B69B-34B2-9712-0787FFBBDFD5">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>70E567B4-78C5-D516-CB20-537B0E495292</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF7A726-102E-DB9A-45B0-E432F846F787</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="descripcion" id="BCF44F90-9E01-682A-2A43-61973F817E45">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>2A67271E-DAD0-5B80-3FE5-70E1A0B90E05</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="precio_unitario" id="126DBA59-F90A-DEAF-0860-FB559ABC1CD5">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>76226976-6F12-5E19-62E7-32DAA1C71105</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>626363CC-17CA-57FE-2423-AE44B944B66D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="stock_disponible" id="7785C894-207F-CFBF-5B87-1E237D2E6D5A">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>C624740D-C3D5-AF35-A30D-C656050E01CC</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="EE7D316A-1339-68C4-B7AD-494C7E7B12FC" name="PRODUCTOS_PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>CDE9C2AF-B0D1-7716-E1DA-49EDCA990520</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="B102B359-67EC-876A-4880-697B19430D7D"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

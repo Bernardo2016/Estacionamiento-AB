@@ -1,0 +1,20 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Relation class="oracle.dbtools.crest.model.design.logical.Relation" name="Relation_2" directorySegmentName="seg_0" id="7CD2730E-4EDA-5296-CB2D-0F80556F62E5">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:04:22 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<sourcePk>4A382DC6-AD68-1351-C387-EC39F9B96713</sourcePk>
+<identifying>false</identifying>
+<nameOnTarget>id_compra</nameOnTarget>
+<optionalSource>true</optionalSource>
+<optionalTarget>false</optionalTarget>
+<sourceCardinality>1</sourceCardinality>
+<sourceEntity>9521EC5D-FB1F-F401-A4FE-3BC18B6194B4</sourceEntity>
+<targetCardinalityString>*</targetCardinalityString>
+<targetEntity>5F374AEF-FDDA-89D6-8EB3-DF39089C2201</targetEntity>
+<transferable>true</transferable>
+<deleteRule>CASCADE</deleteRule>
+</Relation>

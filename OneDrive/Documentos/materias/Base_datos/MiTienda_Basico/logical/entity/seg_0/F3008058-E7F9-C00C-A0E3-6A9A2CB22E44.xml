@@ -1,0 +1,108 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F3008058-E7F9-C00C-A0E3-6A9A2CB22E44" name="CLIENTES">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:47:51 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_cliente" id="2FCB8BB3-3577-BC3C-8D7B-A22C124D8D0F">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:48:02 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="19D49193-F7BB-F582-BEE8-A83C6412267C">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:48:19 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF7A726-102E-DB9A-45B0-E432F846F787</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="apellido" id="A7D0A1A0-6039-275E-4D9D-F1E24D8592D2">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:48:28 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF7A726-102E-DB9A-45B0-E432F846F787</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="email" id="C5EC50EB-0425-5937-90C2-C864271C8535">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:48:38 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C72FE1E3-0E43-C9DE-D36D-B02FE68044F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="telefono" id="BAE394CE-5FC3-3830-C23C-F4CEE76A3ACA">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:49:24 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="fecha_registro" id="FBBCE421-001F-88E6-152F-BE6BADCF0233">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:49:58 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="B23E424D-6E67-EDAD-8414-AA5148332715" name="CLIENTES PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:48:17 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>2FCB8BB3-3577-BC3C-8D7B-A22C124D8D0F</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

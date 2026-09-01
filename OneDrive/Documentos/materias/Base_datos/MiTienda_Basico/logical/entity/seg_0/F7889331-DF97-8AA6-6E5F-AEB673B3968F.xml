@@ -1,0 +1,96 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="F7889331-DF97-8AA6-6E5F-AEB673B3968F" name="PRODUCTOS">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:51:27 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_producto" id="A4200F8B-0E64-B553-4EC8-20378632DA54">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:52:01 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="nombre" id="70E567B4-78C5-D516-CB20-537B0E495292">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:52:18 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF7A726-102E-DB9A-45B0-E432F846F787</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="descripcion" id="2A67271E-DAD0-5B80-3FE5-70E1A0B90E05">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:52:35 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>200</dataTypeSize>
+<ownDataTypeParameters>200,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario" id="76226976-6F12-5E19-62E7-32DAA1C71105">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:53:02 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>626363CC-17CA-57FE-2423-AE44B944B66D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="stock_disponible" id="C624740D-C3D5-AF35-A30D-C656050E01CC">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:54:08 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="CDE9C2AF-B0D1-7716-E1DA-49EDCA990520" name="PRODUCTOS PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:52:15 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>A4200F8B-0E64-B553-4EC8-20378632DA54</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>

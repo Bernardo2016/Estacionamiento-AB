@@ -1,0 +1,95 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Table class="oracle.dbtools.crest.model.design.relational.Table" directorySegmentName="seg_0" id="4BF4EFA6-2160-57D1-F924-09DAECF0694E" name="CLIENTES">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>F3008058-E7F9-C00C-A0E3-6A9A2CB22E44</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<allowColumnReorder>false</allowColumnReorder>
+<existDependencyGenerateInDDl>true</existDependencyGenerateInDDl>
+<parsed>true</parsed>
+<columns itemClass="oracle.dbtools.crest.model.design.relational.Column">
+<Column name="id_cliente" id="1D44269B-0E54-F307-1B90-B6743E94C959">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>2FCB8BB3-3577-BC3C-8D7B-A22C124D8D0F</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="nombre" id="357C655C-3793-A36A-A891-BC129F95D116">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>19D49193-F7BB-F582-BEE8-A83C6412267C</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF7A726-102E-DB9A-45B0-E432F846F787</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="apellido" id="4CB78129-67A4-2DC3-944D-4E8D0B5C00C3">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>A7D0A1A0-6039-275E-4D9D-F1E24D8592D2</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>CFF7A726-102E-DB9A-45B0-E432F846F787</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="email" id="68556698-8F79-B81E-0CC7-F655BFF9274D">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>C5EC50EB-0425-5937-90C2-C864271C8535</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<use>0</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<domain>C72FE1E3-0E43-C9DE-D36D-B02FE68044F4</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="telefono" id="B4B64FE3-C4BF-445E-75C2-A05EA5F3E484">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>BAE394CE-5FC3-3830-C23C-F4CEE76A3ACA</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<nullsAllowed>true</nullsAllowed>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT024</logicalDatatype>
+<dataTypeSize>15</dataTypeSize>
+<ownDataTypeParameters>15,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+<Column name="fecha_registro" id="0A9485C1-A0B7-218E-5B9A-D1A99FBD23C7">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>FBBCE421-001F-88E6-152F-BE6BADCF0233</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT007</logicalDatatype>
+<defaultValue>SYSDATE</defaultValue>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+<autoIncrementCycle>false</autoIncrementCycle>
+</Column>
+</columns>
+<indexes itemClass="oracle.dbtools.crest.model.design.relational.Index">
+<ind_PK_UK id="A4F4CF30-EB32-C6DB-9BA5-B633C3892643" name="CLIENTES_PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:08:15 UTC</createdTime>
+<generatorID>B23E424D-6E67-EDAD-8414-AA5148332715</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<pk>true</pk>
+<indexState>Primary Constraint</indexState>
+<isSurrogateKey>false</isSurrogateKey>
+<indexColumnUsage>
+<colUsage columnID="1D44269B-0E54-F307-1B90-B6743E94C959"/>
+</indexColumnUsage>
+</ind_PK_UK>
+</indexes>
+</Table>

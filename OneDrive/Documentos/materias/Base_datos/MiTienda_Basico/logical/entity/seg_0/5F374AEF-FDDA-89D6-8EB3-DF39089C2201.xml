@@ -1,0 +1,98 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<Entity class="oracle.dbtools.crest.model.design.logical.Entity" directorySegmentName="seg_0" id="5F374AEF-FDDA-89D6-8EB3-DF39089C2201" name="DETALLE_COMPRA">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:57:52 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<adequatelyNormalized>NO</adequatelyNormalized>
+<expectedVolumes>0</expectedVolumes>
+<fwdEngineeringStrategyName>Single Table</fwdEngineeringStrategyName>
+<growthPercent>0</growthPercent>
+<growthType>Year</growthType>
+<maxVolumes>9999999</maxVolumes>
+<minVolumes>0</minVolumes>
+<normalForm>Third</normalForm>
+<attributes itemClass="oracle.dbtools.crest.model.design.logical.Attribute">
+<Attribute name="id_detalle" id="BFA308E5-66AA-C485-B977-EB39CB2F2BD2">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:58:12 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="cantidad" id="37B27473-18BB-7855-4D3E-F68DBBF49910">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:58:45 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<useDomainConstraints>false</useDomainConstraints>
+<use>1</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<dataTypePrecision>10</dataTypePrecision>
+<ownDataTypeParameters>,10,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="precio_unitario_momento" id="D1B52F19-855D-562C-A812-7CCA0E409B87">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:59:28 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>626363CC-17CA-57FE-2423-AE44B944B66D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_compra" id="767F098B-D634-65DF-3879-D1EFD9E5E4DE">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:04:22 UTC</createdTime>
+<generatorID>7CD2730E-4EDA-5296-CB2D-0F80556F62E5</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<referedAttribute>E4976D3A-BA72-82AA-6C97-8071C5258EE4</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+<Attribute name="id_producto" id="F5EFC0A9-94C1-893D-818D-7A96E4D23913">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 20:07:11 UTC</createdTime>
+<generatorID>F1ED733B-9DC5-513A-A0E4-0F6F25CBD099</generatorID>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<referedAttribute>A4200F8B-0E64-B553-4EC8-20378632DA54</referedAttribute>
+<use>0</use>
+<logicalDatatype>LOGDT019</logicalDatatype>
+<domain>965D1C57-DC21-9CFD-83B8-4C2E85B9260D</domain>
+<ownDataTypeParameters>,,</ownDataTypeParameters>
+</Attribute>
+</attributes>
+<identifiers itemClass="oracle.dbtools.crest.model.design.logical.CandidateKey">
+<identifier id="FAC671FC-A043-8F36-498C-FBB42A0B3782" name="DETALLE_COMPRA PK">
+<createdBy>berna</createdBy>
+<createdTime>2026-09-01 19:58:39 UTC</createdTime>
+<ownerDesignName>MiTienda_Basico</ownerDesignName>
+<engineerTo>
+<item key="2C931249-564A-129A-A7D3-9913BE7F9E95" value="true"/>
+</engineerTo>
+<pk>true</pk>
+<usedAttributes>
+<attributeRef>BFA308E5-66AA-C485-B977-EB39CB2F2BD2</attributeRef>
+</usedAttributes>
+</identifier>
+</identifiers>
+</Entity>
